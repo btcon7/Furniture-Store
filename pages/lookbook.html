@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <!-- link to js files -->
+    <script src="../js/lookbook/add-to-cart-about.js" defer></script>
+    <script src="../js/lookbook/image-changer-by-color.js" defer></script>
+    <script src="../js/lookbook/lookbook-slideslow.js" defer></script>
+
+    <!-- link to Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- link to stylesheet -->
+    <link rel="stylesheet" href="../css/lookbook.css" />
+    <title>F-Studio</title>
+
+  </head>
+
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img
+            class="navbar-brand"
+            src="../assets/logo/logo.png"
+            alt="F-Studio"
+          />
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Online Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contactpage.html">Contact Us</a>
+              </li>
+              <li class = "nav-item cart">
+                <a class = "nav-link" >
+                    <img src="../assets/icons/cart shopping icon.svg" alt="cart icon"><span>0</span></a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+<!--Cart span-->
+      <div class="product-container">
+        <div class="product-header">
+          <h5 class="product-title"></h5>
+          <h5 class="price"></h5>
+          <h5 class="quantity"></h5>
+          <h5 class="total"></h5>
+        </div>
+      
+        <div class="products">
+          
+        </div>
+      </div>
+      
+        <div class="container">
+          <div class="row-container row-one">
+            <div class="row">
+              <div class="col">
+
+                <div class = "card">
+                  <h5 class = "card-titel shop-item-title">Corin Bed</h5>
+                  <img class="card-img-top bed-one shop-item-image" src="../assets/lookbook/beds/large/Corin Bed-Vienna Dark Blue-large.png" alt="Corin Bed-Vienna Dark Blue Image">
+                  <img class="card-img-top bed-two shop-item-image" src="../assets/lookbook/beds/large/Corin Bed-Vienna Elephant-large.png" alt="Corin Bed-Vienna Elephant Image">
+                  <img class="card-img-top bed-three shop-item-image" src="../assets/lookbook/beds/large/Corin Bed-Xangai White - large.png" alt="Corin Bed-Vienna Xangai White Image">
+                  
+                  <div class="card-body">
+                    <div class="color-selection three-point-color">
+                        <div class = "blue-color"></div>
+                        <div class = "el-color"></div>
+                        <div class = "cream-color"></div>
+                    </div>
+                    
+
+                    <div class = "fav-cart">
+                      <div class="price">
+                      <h5 class = "cost shop-item-price">R 3500</h5>
+                      <button class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                    </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col">
+
+                <div class = "card">
+                  <h5 class = "card-titel shop-item-title">Miranda Bed</h5>
+                  <img class="card-img-top miranda-one shop-item-image" src="../assets/lookbook/beds/large/Miranda Bed - Elephant & Anthracite-large.png" alt="Miuzza Bed - Vienna Cream Image">
+                  <img class="card-img-top miranda-two shop-item-image" src="../assets/lookbook/beds/large/Miranda Bed - Lime & Tobacco-large.png" alt="Miuzza Bed - Vienna Deep Image">
+                  
+                  <div class="card-body">
+                    <div class="color-selection">
+                      <div class = "anthracite-color"></div>
+                      <div class = "lime-color"></div>
+                    </div>
+                    
+
+                    <div class = "fav-cart">
+                      <div class="price">
+                        <h5 class = "cost shop-item-price">R 2500</h5>
+                      <button class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="purchase icon"></button>
+                    </div>
+                    </div>
+                  </div>
+                    </div>
+                </div>
+              
+            
+              <div class="col">
+
+                <div class = "card">
+                <h5 class = "card-titel shop-item-title">Miuzza Bed</h5>
+                  <img class="card-img-top miuzza-one" src="../assets/lookbook/beds/Miuzza Bed - Vienna Cream.png" alt="Miuzza Bed - Vienna Cream Image">
+                  <img class="card-img-top miuzza-two shop-item-image" src="../assets/lookbook/beds/large/Miuzza Bed -Vienna Deep Blue-large.png" alt="Miuzza Bed - Vienna Deep Image">
+                  
+                  <div class="card-body">
+                    <div class="color-selection">
+                      <div class = "vienna-cream-color"></div>
+                      <div class = "deep-blue-color"></div>
+                    </div>
+                  
+
+                  <div class = "fav-cart">
+                    <div class="price">
+                    <h5 class = "cost shop-item-price">R 2000</h5>
+                    <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+            <div class="row row-gap">
+              <div class="col">
+
+                <div class = "card">
+                <h5 class = "card-titel shop-item-title">Norma Bed</h5>
+                  <img class="card-img-top Norma-one" src="../assets/lookbook/beds/Norma Bed - Vienna Beige.png" alt="Norma Bed - Vienna Beige Image">
+                  <img class="card-img-top Norma-two shop-item-image" src="../assets/lookbook/beds/large/Norma Bed - Vienna Deep Blue-large.png" alt="Norma Bed - Vienna Deep Image">
+                  <img class="card-img-top Norma-three shop-item-image" src="../assets/lookbook/beds/large/Norma Bed - Vienna Elephant-large.png" alt="Norma Bed - Vienna Elephant Image">
+                  
+                  <div class="card-body">
+                    <div class="color-selection">
+                      <div class = "vienna-Beige-color"></div>
+                      <div class = "vienna-deep-blue-color"></div>
+                      <div class = "vienna-elephant-color"></div>
+                    </div>
+                  
+
+                  <div class = "fav-cart">
+                    <div class="price">
+                    <h5 class = "cost shop-item-price">R 3000</h5>
+                    <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                
+          <div class="col">
+
+            <div class = "card">
+            <h5 class = "card-titel shop-item-title">Alpha Bedside</h5>
+              <img class="card-img-top alpha-one" src="../assets/lookbook/bedside table/ALPHA 1 DRAWER PEDESTAL-light oak.jpg" alt="Alpha Drawer perdestal Image">
+              <img class="card-img-top alpha-two shop-item-image" src="../assets/lookbook/bedside table/ALPHA 1 DRAWER PEDESTAL-white oak.jpg" alt="Alpha Drawer perdestal Image">
+              <img class="card-img-top alpha-three shop-item-image" src="../assets/lookbook/bedside table/ALPHA 1 DRAWER PEDESTAL-wedge.jpg" alt="Alpha Drawer perdestal Image">
+              
+              <div class="card-body">
+                <div class="color-selection">
+                  <div class = "white-oak-color"></div>
+                  <div class = "light-oak-color"></div>
+                  <div class = "wedge-color"></div>
+                </div>
+              
+
+              <div class = "fav-cart">
+                <div class="price">
+                <h5 class = "cost shop-item-price">R 3000</h5>
+                <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+              
+            
+               
+      <div class="col">
+
+        <div class = "card">
+        <h5 class = "card-titel shop-item-title">Cyrus Bedside</h5>
+          <img class="card-img-top cyrus-one" src="../assets/lookbook/bedside table/CYRUS 1 DOOR PEDESTAL - wedge.jpg" alt="Cyrus Drawer perdestal Image">
+          <img class="card-img-top cyrus-two shop-item-image" src="../assets/lookbook/bedside table/CYRUS 1 DOOR PEDESTAL - white.jpg" alt="Cyrus Drawer perdestal Image">
+          <img class="card-img-top cyrus-three shop-item-image" src="../assets/lookbook/bedside table/CYRUS 1 DOOR PEDESTAL -oak.jpg" alt="Cyrus Drawer perdestal Image">
+          
+          <div class="card-body">
+            <div class="color-selection">
+              <div class = "cyrus-wedge-color"></div>
+              <div class = "cyrus-white-oak-color"></div>
+              <div class = "cyrus-light-oak-color"></div>
+            </div>
+          
+
+          <div class = "fav-cart">
+            <div class="price">
+            <h5 class = "cost shop-item-price">R1 567</h5>
+            <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+          
+           
+            <div class="row row-gap">
+              <div class="col">
+
+                <div class = "card">
+                <h5 class = "card-titel shop-item-title">Gamma Bedside</h5>
+                  <img class="card-img-top gamma-one" src="../assets/lookbook/bedside table/GAMMA 2 DRAWER PEDESTAL-light oak.jpg" alt="Gamma Drawer perdestal Image">
+                  <img class="card-img-top gamma-two shop-item-image" src="../assets/lookbook/bedside table/GAMMA 2 DRAWER PEDESTAL-wedge.jpg" alt="Gamma Drawer perdestal Image">
+                  <img class="card-img-top gamma-three shop-item-image" src="../assets/lookbook/bedside table/GAMMA 2 DRAWER PEDESTAL-white oak.jpg" alt="Gamma Drawer perdestal Image">
+                  
+                  <div class="card-body">
+                    <div class="color-selection">
+                      <div class = "gamma-light-oak-color"></div>
+                      <div class = "gamma-wedge-color"></div>
+                      <div class = "gamma-white-oak-color"></div>
+                    </div>
+                  
+        
+                    <div class = "fav-cart">
+                      <div class="price">
+                      <h5 class = "cost shop-item-price">R1 567</h5>
+                      <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+
+            <div class = "card">
+            <h5 class = "card-titel shop-item-title">Gamma Bedside</h5>
+              <img class="card-img-top gamma3-one" src="../assets/lookbook/bedside table/GAMMA 3 DRAWER PEDESTAL-walnut.jpg" alt="Gamma 3 Drawer perdestal Image">
+              <img class="card-img-top gamma3-two shop-item-image" src="../assets/lookbook/bedside table/GAMMA 3 DRAWER PEDESTAL-wedge.jpg" alt="Gamma 3 Drawer perdestal Image">
+              <img class="card-img-top gamma3-three shop-item-image" src="../assets/lookbook/bedside table/GAMMA 3 DRAWER PEDESTAL-white.jpg" alt="Gamma 3 Drawer perdestal Image">
+              
+              <div class="card-body">
+                <div class="color-selection">
+                  <div class = "gamma3-walnut-color"></div>
+                  <div class = "gamma3-wedge-color"></div>
+                  <div class = "gamma3-white-color"></div>
+                </div>
+              
+    
+                <div class = "fav-cart">
+                  <div class="price">
+                  <h5 class = "cost shop-item-price">R1 100</h5>
+                  <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+
+        <div class = "card">
+        <h5 class = "card-titel shop-item-title">Takka Bedside</h5>
+        <img class="card-img-top takka-one shop-item-image" src="../assets/lookbook/bedside table/TIKKA 1 DRAWER PEDESTAL-mahogany.jpg" alt="TIKKA 1 DRAWER PEDESTAL-mahogany Image">
+        <img class="card-img-top takka-two shop-item-image" src="../assets/lookbook/bedside table/TIKKA 1 DRAWER PEDESTAL-walnut.jpg" alt="TIKKA 1 DRAWER PEDESTAL-walnut Image">
+          
+          <div class="card-body">
+            <div class="color-selection">
+              <div class = "takka-mahogany-color"></div>
+              <div class = "takka-walnut-color"></div>
+            </div>
+          
+            <div class = "fav-cart">
+              <div class="price">
+              <h5 class = "cost shop-item-price">R 800</h5>
+              <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+            </div>
+          </div>
+        </div>
+
+            <div class="row-container">
+            <div class="row page-two">
+
+              <div class="col">
+
+                <div class = "card">
+                <h5 class = "card-titel shop-item-title">Alexia Chair</h5>
+                <img class="card-img-top alexia-one shop-item-image" src="../assets/lookbook/chair/large/ALEXA CHAIR - GRIJS-large.jpg" alt="ALEXA CHAIR - GRIJS Image">
+                <img class="card-img-top alexia-two shop-item-image" src="../assets/lookbook/chair/large/ALEXA CHAIR - OUDROZE-large.jpg" alt="TIKKA 1 DRAWER PEDESTAL-walnut Image">
+                  
+                  <div class="card-body">
+                    <div class="color-selection">
+                      <div class = "alexia-black-color"></div>
+                      <div class = "alexia-brown-color"></div>
+                    </div>
+                  
+                    <div class = "fav-cart">
+                      <div class="price">
+                      <h5 class = "cost shop-item-price">R1 500</h5>
+                      <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
+          </div>
+               
+          <div class="col">
+
+            <div class = "card">
+            <h5 class = "card-titel shop-item-title">Jean Chair</h5>
+            <img class="card-img-top jean-one shop-item-image" src="../assets/lookbook/chair/large/JEAN STOOL - ANTRACIET-large.jpg" alt="ALEXA CHAIR - GRIJS Image">
+            <img class="card-img-top jean-two shop-item-image" src="../assets/lookbook/chair/large/JEAN STOOL - TAUPE-large.jpg" alt="TIKKA 1 DRAWER PEDESTAL-walnut Image">
+              
+              <div class="card-body">
+                <div class="color-selection">
+                  <div class = "jean-antraciet-color"></div>
+                  <div class = "jean-taupe-color"></div>
+                </div>
+              
+                <div class = "fav-cart">
+                  <div class="price">
+                  <h5 class = "cost shop-item-price">R1 050</h5>
+                  <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="col">
+
+        <div class = "card">
+        <h5 class = "card-titel shop-item-title">Maxime Chair</h5>
+        <img class="card-img-top maxime-one shop-item-image" src="../assets/lookbook/chair/large/MAXIME CHAIR - ECRU-large.jpg" alt="ALEXA CHAIR - GRIJS Image">
+        <img class="card-img-top maxime-two shop-item-image" src="../assets/lookbook/chair/large/MAXIME CHAIR - LICHTGRIJS-large.jpg" alt="TIKKA 1 DRAWER PEDESTAL-walnut Image">
+          
+          <div class="card-body">
+            <div class="color-selection">
+              <div class = "maxime-ecru-color"></div>
+              <div class = "maxime-lichtgrijs-color"></div>
+            </div>
+          
+            <div class = "fav-cart">
+              <div class="price">
+              <h5 class = "cost shop-item-price">R 1 300</h5>
+              <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+  </div>
+            </div>
+
+            <div class="row page-two">
+              <div class="col">
+
+                <div class = "card">
+                <h5 class = "card-titel shop-item-title">Oscar Chair</h5>
+                <img class="card-img-top oscar-one shop-item-image" src="../assets/lookbook/chair/large/OSCAR CHAIR - ANTRACIET-large.jpg" alt="ALEXA CHAIR - GRIJS Image">
+                <img class="card-img-top oscar-two shop-item-image" src="../assets/lookbook/chair/large/OSCAR CHAIR - LICHTGRIJS-large.jpg" alt="TIKKA 1 DRAWER PEDESTAL-walnut Image">
+                  
+                  <div class="card-body">
+                    <div class="color-selection">
+                      <div class = "oscar-ecru-color"></div>
+                      <div class = "oscar-lichtgrijs-color"></div>
+                    </div>
+                  
+                    <div class = "fav-cart">
+                      <div class="price">
+                      <h5 class = "cost shop-item-price">R 700</h5>
+                      <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
+          </div>
+                
+          <div class="col">
+
+            <div class = "card">
+            <h5 class = "card-titel shop-item-title">Oscar Chair</h5>
+            <img class="card-img-top caden-one shop-item-image" src="../assets/lookbook/coffee table/large/CADEN 120x60cm COFFEE TABLE-Light Oak-large.jpg" alt="ALEXA CHAIR - GRIJS Image">
+            <img class="card-img-top caden-two shop-item-image" src="../assets/lookbook/coffee table/CADEN 120x60cm COFFEE TABLE-Wenge.jpg" alt="TIKKA 1 DRAWER PEDESTAL-walnut Image">
+              
+              <div class="card-body">
+                <div class="color-selection">
+                  <div class = "caden-lightoak-color"></div>
+                  <div class = "caden-Wenge-color"></div>
+                </div>
+              
+                <div class = "fav-cart">
+                  <div class="price">
+                  <h5 class = "cost shop-item-price">R1500</h5>
+                  <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+                
+      <div class="col">
+
+        <div class = "card">
+        <h5 class = "card-titel shop-item-title">Judy Coffee Table</h5>
+        <img class="card-img-top judy-one shop-item-image" src="../assets/lookbook/coffee table/large/KAMI 100x40cm COFFEE TABLE-Light Oak-Light Grey-large.jpg" alt="ALEXA CHAIR - GRIJS Image">
+        <img class="card-img-top judy-two shop-item-image" src="../assets/lookbook/coffee table/large/KAMI 100x40cm COFFEE TABLE-Walnut Black-large.jpg" alt="TIKKA 1 DRAWER PEDESTAL-walnut Image">
+          
+          <div class="card-body">
+            <div class="color-selection">
+              <div class = "judy-lightoak-color"></div>
+              <div class = "judy-Wenge-color"></div>
+            </div>
+          
+            <div class = "fav-cart">
+              <div class="price">
+              <h5 class = "cost shop-item-price">R1 300</h5>
+              <button type="button" class="btn btn-light shop-item-button"><img src="../assets/icons/4265054_bag_dollar_earnings_ecommerce_purchase_icon.svg" alt="cart icon"></button>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+  </div>
+            </div>
+            
+          </div>
+        </div>
+
+          <div class = "prod-nav">
+              <div class = "num-nav">
+                <button class="left-btn"><img src="../assets/icons/left arrow.svg" alt="left arrow" onclick="plusSlide(-1)"></button>
+              <button class="right-btn"><img src="../assets/icons/left arrow.svg" alt="right arrow" onclick="plusSlide(+1)"></button>
+            </div>
+          </div>
+
+          
+            
+  </main>
+
+    <footer>
+      <div class="footer">
+          <div class = "container-footer">
+          <div class="collection">
+              <h3>COLLECTION</h3>
+              <ul class="list-group">
+                  <li>SOFA'S</li>
+                  <li>BEDS</li>
+                  <li>BED SIDE TABLES</li>
+                  <li>COFFEE TABLES</li>
+              </ul>
+          </div>
+
+          <div class = "coll-hl"></div>
+
+          <div class="blog">
+              <h3>BLOG</h3>
+              <ul class="list-group">
+                  <li>SUPERBLOG</li>
+                  <li>CATABLOG</li>
+              </ul>
+          </div>
+
+          <div class = "blog-hl"></div>
+
+          <div class="contact">
+              <h3>CONTACT US</h3>
+              <ul class="list-group">
+                  <li>TEL: 021 568 7523</li>
+                  <li>44 Harrington St, 
+                      Zonnebloem, 
+                      Cape Town, 
+                      8001</li>
+              </ul>
+          </div>
+      </div>
+
+      
+      </div>
+  </footer>
+
+
+  

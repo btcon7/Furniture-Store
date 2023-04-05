@@ -1,0 +1,384 @@
+@media (max-width: 1920px) {
+    .navbar-expand-lg,.navbar-nav,.nav-link {
+        max-width: 100%;
+    }
+    .cart{
+        margin-left:85em;
+    }
+    .h1{
+        margin: 1em 19em;
+    }
+    .serve p{
+        margin-left: 35em;
+    }
+    .container-collection{
+        margin-left: 8em; 
+    }
+    .container-footer{
+        margin-left: 26em;
+    }
+}
+
+@media (max-width: 1700px) {
+    .navbar-expand-lg,.navbar-nav,.nav-link {
+        max-width: 100%;
+    }
+    .cart{
+        margin-left:70em;
+    }
+    .product-container{
+        margin-left: 85em;
+    }
+    .h1{
+        margin: 1em 16em;
+    }
+    .serve p{
+        margin-left: 31em;
+    }
+    .container-collection{
+        margin-left: 8em; 
+    }
+    .container-footer{
+        margin-left: 15em;
+    }
+}
+
+@media (max-width: 1600px) {
+    .navbar-expand-lg,.navbar-nav,.nav-link {
+        max-width: 100%;
+    }
+    .product-container{
+        margin-left: 80em;
+    }
+    .cart{
+        margin-left:66em;
+    }
+    .h1{
+        margin: 1em 15em;
+    }
+    .serve p{
+        margin-left: 29em;
+    }
+    .container-collection{
+        margin-left: 8em; 
+    }
+    .container-footer{
+        margin-left: 15em;
+    }
+}
+
+@media (max-width: 1500px) {
+    .navbar-expand-lg,.navbar-nav,.nav-link {
+        max-width: 100%;
+    }
+    .product-container{
+        margin-left: 75em;
+    }
+    .cart{
+        margin-left:60em;
+    }
+    .h1{
+        margin: 1em 14em;
+    }
+    .serve p{
+        margin-left: 29em;
+    }
+    .container-collection{
+        margin-left: 8em; 
+    }
+    .container-footer{
+        margin-left: 15em;
+    }
+}
+
+@media (max-width: 1400px) {
+    
+    .cart{
+        margin-left:54em;
+    }
+    .product-container{
+        margin-left: 70em;
+    }
+    .carousel-inner{
+        margin-top: -15em;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        margin-top: 12em;
+    }
+    .h1{
+        margin: 7em 13em;
+    }
+    .serve p{
+        margin-left: 21em;
+        max-width: 43%;
+    }
+    .container-collection{
+        margin-left: 8em;
+    }
+    .container-footer{
+        margin-left: 10em;
+    }
+}
+
+@media (max-width: 1366px) {
+    .product-container{
+        margin-left: 67.4em;
+    }
+    .cart{
+        margin-left:52em;
+    }
+    .carousel-inner{
+        margin-top: -15em;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        margin-top: 12em;
+    }
+    .h1{
+        margin: 7em 14em;
+        width: 50%;
+    }
+
+    .serve p{
+        margin-left: 20em;
+        max-width: 43%;
+    }
+    .container-collection{
+        margin-left: 3em;
+    }
+    .container-footer{
+        margin-left: 13em;
+    }
+    .coll-hl {
+        margin-left: 20em;
+    }
+    .blog-hl{
+        margin-left: 37em;
+    }
+    .blog{
+        margin-left: -3em;
+    }
+    .contact{
+        margin-left: -6em;
+    }
+}
+
+@media (max-width: 1300px) {
+    .nav-item{
+        width:8em;
+    }
+    .product-container{
+        margin-left: 65em;
+    }
+    .cart{
+        margin-left:38em;
+    }
+    .carousel-inner{
+        margin-top: -15em;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        margin-top: 12em;
+    }
+    .h1{
+        margin: 7em 14em;
+    }
+
+    .serve p{
+        margin-left: 20em;
+        max-width: 43%;
+    }
+    .container-collection{
+        margin-left: 3em;
+    }
+    .container-footer{
+        margin-left: 13em;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .cart{
+        margin-left:34em;
+    }
+    .carousel-inner{
+        margin-top: -15em;
+    }
+
+    .product-container{
+        margin-left: 60em;
+    }
+    .basketTotalContainer{
+        grid-gap:1em;
+    }
+    .basketTotalTitle,.basketTotal{
+        font-size: 15px !important;
+    }
+    
+    .carousel-control-prev,.carousel-control-next{
+        margin-top: 12em;
+    }
+    .h1{
+        margin: 7em 10em;
+    }
+    .serve p{
+        margin-left: 17em;
+        max-width: 43%;
+    }
+    .container-collection{
+        margin-left: 3em;
+    }
+    .container-footer{
+        margin-left: 2em;
+    }
+}
+
+@media (max-width: 1100px) {
+    .cart{
+        margin-left:27em;
+    }
+
+    .product-container{
+        margin-left: 55em;
+    }
+   
+    .carousel-inner{
+        margin-top: -15em;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        margin-top: 12em;
+    }
+    .h1{
+        margin: 7em 9em;
+    }
+    .serve p{
+        margin-left: 17em;
+        max-width: 43%;
+    }
+    .container-collection{
+        margin-left: -2em;
+    }
+    .container-footer{
+        margin-left: 0em;
+    }
+}
+
+@media (max-width: 1024px) {  
+    .cart{
+        margin-left: 19em;
+        padding-left: 4em;
+    }
+
+    .product-container{
+        margin-left: 50.3em;
+    }
+   
+    .product svg{
+        width: 20%;
+    }
+
+    .carousel-inner{
+        margin-top: -15em;
+    }
+
+    .carousel-control-prev,.carousel-control-next{
+        margin-top: 12em;
+    }
+
+    .h1{
+        margin: 7em 9em;
+    }
+
+    .serve p{
+        margin-left: 16em;
+        max-width: 43%;
+        font-size: 18px;
+    }
+
+    .serve h1{
+        font-size: 30px;
+    }
+
+    .container-collection{
+        margin-left: -2em;
+    }
+
+    .container-footer{
+        margin-left: 0em;
+    }
+  }
+
+@media (max-width: 992px) {
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .cart{
+        margin-left: 17em;
+        padding-left:4em;
+    }
+    .product-container{
+        margin-left: 48.79em;
+    }
+    .product svg{
+        width: 20%;
+    }
+    .h1{
+        margin: 9em 8em;
+        font-size: 30px;
+    }
+    .carousel-item img{
+        height:50%;
+    }
+    
+    .serve h1{
+        font-size: 30px;
+    }
+
+    .serve p{
+        margin-left: 17em;
+        font-size: 17px;
+    }
+
+    .catalogue, .about{
+        font-size: 20px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .header{
+        font-size: 30px;
+    }
+
+    .col img {
+        width: 30em;
+        height: 15em;
+    }
+
+    .bed img {
+        width: 17em !important;
+        height: 8em !important;
+    }
+
+    .bedside img {
+        width: 9.3em !important;
+        height: 8em !important;
+    }
+
+    .container-collection{
+        margin-left: -2em; 
+    }
+    .container-footer{
+        margin-left: 0em;
+    }
+    .coll-hl {
+        margin-left: 20em;
+    }
+    .blog-hl{
+        margin-left: 37em;
+    }
+    .blog{
+        margin-left: -3em;
+    }
+    .contact{
+        margin-left: -6em;
+    }
+}

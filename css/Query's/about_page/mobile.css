@@ -1,0 +1,393 @@
+@media  (max-width: 450px) {
+    .collapse:not(.show){
+        display: none;
+    }
+
+    .collapse{
+        display: block;
+    }   
+
+    .navbar-brand {
+        margin-top: -2em;
+    }
+
+    .burger{
+        margin: 1em 24em;
+        display: block;
+    }
+
+    .container-fluid{
+        display: block !important;
+        grid-template-columns: 0;
+        z-index:-2;
+    }
+
+    .nav-item a{
+        cursor: pointer;
+        
+    }
+
+    .burger img{
+        position: absolute;
+        max-width: 5%;
+        filter: invert(78%) sepia(18%) saturate(548%) hue-rotate(350deg) brightness(80%) contrast(84%);
+        cursor: pointer;
+    }
+
+    .navbar-collapse{
+        margin-left: -1em;
+        width: 98.3vw;
+        background-color: var(--dark-sienna-color);
+    }
+
+    .navbar {
+        height: 6vh;
+        
+    }
+
+    .navbar-nav{
+        margin-top: 4em  !important;
+    }
+
+    .cart{
+        margin-left: -3em;
+        display: block;
+    }
+
+    .products {
+        margin: 0 0rem;
+    }
+
+    .product{
+        margin-left: 1em;
+    }
+
+    .product svg {
+        width: 14%;
+        margin-left: 1em;
+    }
+
+    .item-name p{
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .products{
+        display: flex;
+    }
+
+    .product-container{
+        margin: 11em -0.55em;
+        width: 99.3vw;
+    }
+
+    .basketTotalTitle, .basketTotal{
+        font-size:15px;
+        margin-left:1em;
+    }
+
+    .basketTotalContainer {
+        grid-gap: 0em;
+        margin-top: 13em;
+    }
+    
+    .h1 {
+        margin: 5em 7em;
+        font-size: 19px;
+    }
+
+    .carousel-inner{
+        margin-top: -5em;
+    }
+
+    .carousel-control-next-icon,.carousel-control-prev-icon {
+        width: 20%;
+        margin-top: -8em;
+    }
+
+
+
+    .serve h1 {
+        font-size: 15px;
+        
+
+    }
+    
+    .serve p {
+        margin-left: 7em;
+        width: 100vw;
+    }
+
+ 
+    .catalogue, .about {
+        font-size: 14px;
+        
+    }
+
+    .catalogue{
+        margin-left:1em;
+    }
+
+    .header {
+    font-size: 20px;
+    }
+
+    .container-collection{
+        margin-left: -11em;
+    }
+
+    .col img {
+        width: 17em;
+        height: 8em;
+    }
+
+    .bed img {
+        width: 11em !important;
+        height: 6em !important;
+    }
+
+    .bedside img {
+        width: 5.3em !important;
+        height: 6em !important;
+        margin-left: 0.7em !important;
+    }
+
+    .container-footer {
+        margin-left: -8em;
+    }
+
+    .coll-hl {
+        margin-left: 16em;
+    }
+
+    .collection h3,.blog h3,.contact h3{
+        font-size: 5px;
+    }
+
+    .blog {
+        margin-left: -12em;
+    }
+
+    .blog-hl {
+        margin-left: 23em;
+    }
+
+    .contact{
+        margin-left: -13em;
+    }
+
+}
+
+@media  (max-width: 321px) {
+    .collapse:not(.show){
+        display: none;
+    }
+
+    .collapse{
+        display: block;
+    }   
+
+    .navbar-brand {
+        margin-top: -0.25em;
+        width: 7vw;
+    }
+
+    .burger{
+        margin: 0em 17em;
+        display: block;
+    }
+
+    .container-fluid{
+        display: block !important;
+        grid-template-columns: 0;
+        z-index:-2;
+    }
+
+    .nav-item a{
+        cursor: pointer;
+        
+    }
+
+    .burger img{
+        position: absolute;
+        max-width: 5%;
+        filter: invert(78%) sepia(18%) saturate(548%) hue-rotate(350deg) brightness(80%) contrast(84%);
+        cursor: pointer;
+    }
+
+    .navbar-collapse{
+        margin-left: -1em;
+        width: 98.3vw;
+        background-color: var(--dark-sienna-color);
+    }
+
+    .navbar {
+        height: 4vh;
+        
+    }
+
+    .navbar-nav{
+        margin-top: 3em !important;
+    }
+
+    .nav-link{
+        font-size: 10px;
+    }
+
+    .cart{
+        margin-left: -3em;
+        display: block;
+    }
+
+    .products {
+        margin: 0 0rem;
+    }
+
+    .product{
+        margin-left: 1em;
+    }
+
+    .product svg {
+        width: 14%;
+        margin-left: 1em;
+    }
+
+    .item-name p{
+        font-size: 10px;
+    }
+
+    .products{
+        display: flex;
+    }
+
+    .product-container{
+        margin: 9.45em -0.55em;
+        width: 99.3vw;
+    }
+
+    .basketTotalTitle, .basketTotal{
+        font-size:15px;
+        margin-left:1em;
+    }
+
+    .basketTotalContainer {
+        margin-left: 2em;
+        position: absolute;
+        width: 78vw;
+    }
+    
+    .h1 {
+        margin: 7em 7em;
+        font-size: 13px;
+    }
+
+    .carousel-inner{
+        margin-top: -5em;
+    }
+
+    .carousel-control-next-icon,.carousel-control-prev-icon {
+        width: 20%;
+        margin-top: -8em;
+    }
+
+    .indicators{
+        height:0.3vh !important;
+        width:5vw !important;
+    }
+
+    .serve{
+        margin-left: -4em;
+    }
+
+    .serve h1 {
+        font-size: 20px;
+        max-width: 50%;
+        margin-left: 6em;
+    }
+    
+    .serve p {
+        max-width: 50%;
+        margin-left: 11em;
+    }
+
+    .serve a{
+        max-width: 50%;
+        margin-left: 7em;
+    }
+
+    .catalogue, .about {
+        font-size: 14px;
+    }
+
+    .catalogue{
+        margin-left:0em;
+    }
+
+    .container{
+        margin-left: 0em;
+    }
+
+    .header {
+    font-size: 20px;
+    }
+
+    .container-collection{
+        margin-left: -11em;
+    }
+
+    .col img {
+        width: 11em;
+        height: 5em;
+    }
+
+    .bed img {
+        width: 7em !important;
+        height: 4em !important;
+    }
+
+    .bedside img {
+        width: 3.3em !important;
+        height: 4em !important;    
+        margin-left: 0.7em !important;
+    }
+
+    .footer {
+        margin-top: 1em;
+    }
+
+    .container-footer {
+        margin:0;
+    }
+
+    .coll-hl {
+        margin-left: 7em;
+    }
+
+    .collection{
+        width:80%;
+        margin:0em -9em;
+    }
+
+    .collection h3,.blog h3,.contact h3{
+        font-size: 9px;
+    }
+
+    .list-group{
+        font-size: 8px;
+        width:27vw;
+    }
+
+    .blog {
+        margin:0em 0.5em;
+    }
+
+    .blog-hl {
+        margin-left: 13em;
+    }
+
+    .contact{
+        margin:0em -11em;
+    }
+
+}

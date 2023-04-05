@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Open-Sans !important;
+}
+
+:root{
+    --dark-sienna-color:#2F0F02;
+    --black-bean-color:#421803;
+    --french-bistre-color:#796B5D;
+    --camel-color:#B99C7E;
+    --black-coffee-color:#B99C7E;
+}
+
+@font-face {
+    font-family:Open-Sans;
+    src: url(../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+}
+
+.navbar-brand{
+    width:2rem;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: var(--dark-sienna-color)!important;
+    height:3rem;
+    z-index: 3;
+}
+
+.nav-link{
+    color:var(--camel-color)!important;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 2;
+    max-width: 100%;
+}
+
+.nav-item{
+    padding-left:1rem;
+    
+}
+
+.nav-item img{
+ width:20px;
+ width:1.5em;
+}
+
+.cart{
+margin-left: 85rem;
+}
+
+.cart a{
+    filter: invert(43%) sepia(32%) saturate(310%) hue-rotate(347deg) brightness(90%) contrast(88%);
+    width:0rem;
+}
+
+span{
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: -1.3rem;
+}
+
+/*Online Cart*/
+
+.product-container{
+    position: absolute;
+    background-color: var(--dark-sienna-color);
+    display: grid;
+    z-index: 5;
+    width:20%;
+    margin-left: 95.18rem;
+    display: none;
+    margin-top: -3rem;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.cart-hide {
+    display: block !important;
+  }
+
+.products{
+    color: var(--camel-color); 
+    margin: 0 3rem;
+}
+
+.remove{
+    margin-top: 1rem;
+}
+
+.item-name{
+    display: grid;
+    margin-top:1rem;
+    text-align: center;
+}
+
+.item-name img{
+    max-width:100%;
+}
+
+.product svg{
+    width: 10%;
+    filter: invert(43%) sepia(32%) saturate(310%) hue-rotate(347deg) brightness(90%) contrast(88%);
+}
+
+.basketTotalContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:8rem;
+    width:100%;
+    padding: 10px 0;
+    border-top: 1px solid var(--camel-color);
+    margin-top: 1rem;
+}
+
+.basketTotalTitle,.basketTotal{
+    font-size:20px;
+}
+/*Online Cart*/
+
+.header{
+    font-size:50px;
+    text-align: center;
+    color: var(--french-bistre-color);
+    margin-top: 3rem;
+}
+
+.container{
+    max-width: 60%;
+}
+
+.row-container{
+    margin: 3rem 5rem;
+}
+
+.row{
+    max-width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.page-two{
+    margin: 3rem 20rem;
+}
+
+.row-gap{
+margin-top:2rem
+}
+
+/* CARD BODY */
+.card-titel{
+    margin-top: 1rem;
+    font-size: 15px;
+    text-align: center;
+    color: var(--dark-sienna-color);
+    z-index: 1;
+}
+
+.card{
+    max-width: 100%;
+    box-shadow: 3px 3px 6px black;
+}
+
+.card-body{
+    margin-top: -3rem;
+    z-index: 1;
+}
+
+.price{
+    display: flex;
+}
+
+.cost{
+    padding-top: 1.5rem;
+    width: 100%;
+}
+
+.btn-light{
+    width: 20%;
+    background-color: var(--camel-color);
+    
+}
+
+.btn img{
+    max-width:100%;
+    
+}
+
+.btn:hover, .btn-light:hover{
+    background-color: var(--french-bistre-color);
+}
+
+/* CARD BODY */
+
+.bed-two,.bed-three,.miranda-two,.miuzza-two,.Norma-two,.Norma-three,
+.alpha-two,.alpha-three,.cyrus-two,.cyrus-three,.gamma-two,.gamma-three,
+.gamma3-two,.gamma3-three,.takka-two,.alexia-two,.jean-two,.maxime-two,
+.oscar-two,.caden-two,.judy-two,.judy-two{
+    position: absolute;
+    display: none;
+}
+
+.bed-one{
+    margin-top: 2rem;
+}
+
+.three-point-color{
+    margin-top: 2.9rem !important;
+}
+
+.color-selection{
+    display: flex;
+    grid-gap:1rem;
+    margin-top: 1.2rem;
+}
+
+/*
+FURNITURE COLOURS
+*/
+.el-color,.cream-color,.blue-color,.anthracite-color,.lime-color,.vienna-cream-color,
+.deep-blue-color,.vienna-Beige-color,.vienna-elephant-color,.vienna-deep-blue-color,
+.light-oak-color,.wedge-color,.white-oak-color,.cyrus-light-oak-color,.cyrus-white-oak-color,
+.cyrus-wedge-color,.gamma-wedge-color,.gamma-light-oak-color,.gamma-white-oak-color,
+.takka-mahogany-color,.takka-walnut-color,.gamma-light-oak-color,.gamma3-walnut-color,
+.gamma3-wedge-color,.gamma3-white-color,.alexia-black-color,.alexia-brown-color,
+.jean-antraciet-color,.jean-taupe-color,.maxime-ecru-color,.maxime-lichtgrijs-color,
+.oscar-ecru-color,.oscar-lichtgrijs-color,.caden-lightoak-color,.caden-Wenge-color,.alexia-black-color,
+.judy-lightoak-color,.judy-Wenge-color{
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.blue-color{
+    background-color: #000080;
+}
+
+.el-color{
+    background-color: #d3cabb;
+}
+
+.cream-color{
+    background-color: #e7e5bb;
+}
+
+.anthracite-color{
+    background-color: #383e42;
+}
+
+.lime-color{
+    background-color:#6b8f00;
+}
+
+.vienna-cream-color{
+    background-color:#eddcc2;
+}
+
+.deep-blue-color{
+    background-color:#072A6C;
+}
+
+.vienna-deep-blue-color{
+    background-color:#4278AF;
+}
+
+.vienna-Beige-color{
+    background-color:#d9ad78;
+}
+
+.vienna-elephant-color{
+    background-color:#8c7c6c;
+}
+
+.light-oak-color,.cyrus-light-oak-color,.gamma-light-oak-color,.caden-lightoak-color,
+.judy-lightoak-color{
+    background-color:#d1af84;
+}
+
+.wedge-color,.cyrus-wedge-color,.gamma-wedge-color,.gamma3-wedge-color,.caden-Wenge-color,
+.judy-Wenge-color{
+    background-color:#271910;
+}
+
+.cyrus-white-oak-color,.white-oak-color,.gamma-white-oak-color,.gamma3-white-color{
+    background-color:#ce9f6f;
+}
+
+.takka-mahogany-color{
+    background-color:#C04000;
+}
+
+.takka-walnut-color,.gamma3-walnut-color{
+    background-color: #773f1a;
+}
+
+.alexia-black-color{
+    background-color: #000000;
+}
+
+.alexia-brown-color{
+    background-color: #301e0a;
+}
+
+.jean-antraciet-color{
+    background-color: #383e42;
+}
+
+.jean-taupe-color{
+    background-color: #483C32;
+}
+
+.maxime-ecru-color,.oscar-ecru-color{
+    background-color: #C2B280;
+}
+
+.maxime-lichtgrijs-color,.oscar-lichtgrijs-color{
+    background-color: #d3d3d3;
+}
+
+
+
+
+.el-color:hover,.cream-color:hover,.blue-color:hover,.anthracite-color:hover,
+.lime-color:hover,.vienna-cream-color:hover,.deep-blue-color:hover,.vienna-Beige-color:hover,
+.vienna-elephant-color:hover,.vienna-deep-blue-color:hover,.light-oak-color:hover,
+.wedge-color:hover,.white-oak-color:hover.cyrus-light-oak-color:hover,.white-oak-color:hover,
+.cyrus-wedge-color:hover,.gamma-wedge-color:hover,.gamma-light-oak-color:hover,.gamma-white-oak-color:hover,
+.takka-mahogany-color:hover,.takka-walnut-color,.gamma-white-oak-color:hover,
+.gamma3-walnut-color:hover,.gamma3-wedge-color:hover,.gamma3-white-color:hover,
+.alexia-black-color:hover,.alexia-brown-color:hover,.jean-antraciet-color:hover,
+.jean-taupe-color:hover,.maxime-ecru-color:hover,.maxime-lichtgrijs-color:hover,.oscar-ecru-color:hover,
+.oscar-lichtgrijs-color:hover,.judy-lightoak-color:hover,.judy-Wenge-color{
+    animation: scaleUp 0.3s 1;
+}
+
+@keyframes scaleUp {
+    0% {transform: scale(1);}
+
+    100% {transform: scale(1.5);}
+}
+
+
+/*
+FURNITURE COLOURS
+*/
+
+
+
+@keyframes slideright {
+    0% {margin-left: -10rem;
+    opacity: 0;}
+
+    100% {margin-left: 0rem;
+        opacity: 1;}
+}
+
+.right-btn img{
+    transform: rotate(180deg);
+}
+
+.right-btn,.left-btn{
+    border: none;
+}
+
+.right-btn img,.left-btn img{
+    margin-left:5rem;
+    margin-bottom:3rem;
+    filter: invert(43%) sepia(32%) saturate(310%) hue-rotate(347deg) brightness(90%) contrast(88%);
+    width: 10%;
+}
+
+.prod-nav{
+    margin:2rem 18rem;
+}
+
+.footer{
+    background-color: var(--dark-sienna-color);
+    height:100px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30rem;
+}
+
+.collection h3,.blog h3,.contact h3{
+    color: var(--camel-color);
+    text-decoration: underline;
+    padding-top:0.5rem;
+    padding-left:10rem;
+    font-size: 15px;
+}
+
+.list-group{
+    list-style-type: none;
+    text-align: justify;
+    color: var(--camel-color);
+    margin-left:10rem;
+    width:10rem;
+}
+
+.list-group li{
+    font-size: 10px;
+}
+
+.coll-hl{
+    border-left: 1px solid var(--camel-color);
+    height:4rem;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 27rem;
+}
+
+.blog-hl{
+    border-left: 1px solid var(--camel-color);
+    height:4rem;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 45rem;
+}
+
+@keyframes openup {
+    0% {transform: scale(0);}
+
+    100% {transform: scale(1);}
+}
+
+.exit{
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: -2rem;
+    color:var(--dark-sienna-color);
+    cursor: pointer;
+}
+
+.content-section{
+    position: absolute;
+    margin-left: 145rem;
+    margin-top: -116rem;
+    background-color: var(--camel-color);
+    padding: 3rem 2.79rem 109.3rem; 
+}
+
+.section-header{
+    color: var(--french-bistre-color);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cart-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-purchase{
+    margin-left: 0rem;
+    margin-top:  2rem;
+    border-color: var(--dark-sienna-color);
+}
+
+.btn-purchase:hover{
+border-color: var(--dark-sienna-color);
+}
+

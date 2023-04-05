@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/Query's/home_page/desktop.css">
+    <link rel="stylesheet" type="text/css" href="../css/Query's/home_page/tablet.css">
+    <link rel="stylesheet" type="text/css" href="../css/Query's/home_page/mobile.css">
+
+    <script src="./js/Home Page/add-to-cart-index.js" defer></script>
+    <script src="./js/Home Page/burger-click.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>F-Studio</title>
+</head>
+<body>
+    <header>
+        <nav class = "navbar navbar-expand-lg navbar-light bg-light nav">
+
+            <div class="burger">
+                <img src="./assets/icons/burger.png" alt="burger icon">
+            </div>
+
+            <div class="container-fluid">
+                <img class = "navbar-brand" src="./assets/logo/logo.png" alt="F-Studio">
+                <div class = "collapse navbar-collapse" id="navbarNav">
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a class = "nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href="./pages/aboutus.html">About Us</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href="./pages/lookbook.html">Online Shop</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href="./pages/contactpage.html">Contact Us</a>
+                        </li>
+                        <li class = "nav-item cart">
+                            <a class = "nav-link">
+                                <img src="./assets/icons/cart shopping icon.svg" alt="cart icon"><span>0</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="product-container">
+            <div class="product-header">
+              <h5 class="product-title"></h5>
+              <h5 class="price"></h5>
+              <h5 class="quantity"></h5>
+              <h5 class="total"></h5>
+            </div>
+          
+            <div class="products">
+              
+            </div>
+          </div>
+
+
+        <div id = "carouselExampleIndicators" class = "carousel slide" data-bs-ride>
+            <h1 class="h1">Featured Products</h1>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target = "#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" class="indicators"></button>
+                <button type="button" data-bs-target = "#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="indicators"></button>
+                <button type="button" data-bs-target = "#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="indicators"></button>
+                <button type="button" data-bs-target = "#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" class="indicators"></button>
+                <button type="button" data-bs-target = "#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5" class="indicators"></button>
+            </div>
+            <div class="carousel-inner carousel-inner-height">
+                <div class="carousel-item active">
+                    <img src="./assets/featured product/bed1.jpg" class="d-block w-100" alt="Bed Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/featured product/bedside table 1.jpg" class="d-block w-100" alt="Bed Side Table Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/featured product/coffee table.jpg" class="d-block w-100" alt="Coffee Table Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/featured product/couch 2.jpg" class="d-block w-100" alt="Sofa Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/featured product/couch1.jpg" class="d-block w-100" alt="Sofa Image">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden=""true></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden=""true></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="serve">
+            <h1>We are here to serve!</h1>
+                <p>Welcome! We are happy to have you visit our site.
+                    If you would like to view the kinds of products we have.
+                    Visit our online Shop.</p>
+            <a href="./pages/lookbook.html"><button class="catalogue">Online Shop</button></a>
+        
+                    
+                <p>If you want to know more about, how this company began
+                and what our values are, click on...</p>
+            <a href="./pages/aboutus.html"><button class="about">About Us</button></a>
+        </div>
+    </div>
+
+<div class = "container">
+        <div class = "header">
+            New Collection
+        </div>
+        <div class = "container-collection">
+        <div class = "row">
+            <div class = "col sofa">
+                <img src="./assets/new collection/sofa/sofa 2.jpg" alt="Sofa Image">
+            </div>
+            <div class="grid">
+                <div class="col col-grid bed">
+                    <img src="./assets/new collection/beds/bed3.jpeg" alt="Bed Image">
+                </div>
+                <div class="col col-grid bedside">
+                    <img src="./assets/new collection/bed side tables/bedside table2.jpg" alt="Bed side table Image">
+                </div>
+            </div>
+            <div class = "col table">
+                <img src="./assets/new collection/Coffee Tables/coffee table3.jpg" alt="Coffee table Image">
+            </div>
+        </div>
+        </div>
+    </div>
+
+      
+      
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class = "container-footer">
+            <div class="collection">
+                <h3>COLLECTION</h3>
+                <ul class="list-group">
+                    <li>SOFA'S</li>
+                    <li>BEDS</li>
+                    <li>BED SIDE TABLES</li>
+                    <li>COFFEE TABLES</li>
+                </ul>
+            </div>
+
+            <div class = "coll-hl"></div>
+
+            <div class="blog">
+                <h3>BLOG</h3>
+                <ul class="list-group">
+                    <li>SUPERBLOG</li>
+                    <li>CATABLOG</li>
+                </ul>
+            </div>
+
+            <div class = "blog-hl"></div>
+
+            <div class="contact">
+                <h3>CONTACT US</h3>
+                <ul class="list-group">
+                    <li>TEL: 021 568 7523</li>
+                    <li>44 Harrington St, 
+                        Zonnebloem, 
+                        Cape Town, 
+                        8001</li>
+                </ul>
+            </div>
+        </div>
+
+        
+        </div>
+    </footer>
+</body>
+</html>
+

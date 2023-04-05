@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Open-Sans !important;
+}
+
+:root{
+    --dark-sienna-color:#2F0F02;
+    --black-bean-color:#421803;
+    --french-bistre-color:#796B5D;
+    --camel-color:#B99C7E;
+    --black-coffee-color:#B99C7E;
+}
+
+@font-face {
+    font-family:Open-Sans;
+    src: url(../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+}
+
+.navbar-brand{
+    width:2rem;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: var(--dark-sienna-color)!important;
+    height:3rem;
+    z-index: 3;
+}
+
+.nav-link{
+    color:var(--camel-color)!important;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 2;
+    max-width: 100%;
+}
+
+.nav-item{
+    padding-left:1rem;
+    
+}
+
+.nav-item img{
+ width:20px;
+ width:1.5em;
+}
+
+.cart{
+margin-left: 85rem;
+}
+
+.cart a{
+    filter: invert(43%) sepia(32%) saturate(310%) hue-rotate(347deg) brightness(90%) contrast(88%);
+    width:0rem;
+}
+
+span{
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: -1.3rem;
+}
+
+
+
+.hero-image{
+  margin-left:-1rem;
+  width:99.3vw;
+  height: 60vh;
+  background-image: url("../assets/contact page/hero-image.jpg");
+  background-size: cover;
+  filter: saturate(50%);
+  margin-top: -11rem;
+}
+
+.h1{
+position: absolute;
+margin-top: -11rem;
+margin-left:40rem;
+font-size: 80px;
+color: var(--camel-color);
+}
+
+.container-info{
+    width: 100%;
+    background-color:var(--dark-sienna-color);
+    height:20vh;
+}
+
+.icons img{
+    max-width:10%;
+    filter: invert(74%) sepia(9%) saturate(1092%) hue-rotate(350deg) brightness(87%) contrast(81%);
+    margin: 3rem 2rem;
+}
+
+.email-icon img{
+    margin: 3rem 1.3rem;
+}
+
+.phone-icon h4,.location-icon h4,.email-icon h4{
+    margin: -3rem 1.5rem;
+    font-size: 20px;
+    margin-left:1rem;
+}
+
+.phone-icon p,.location-icon p,.email-icon p{
+    color:var(--camel-color);
+    font-size: 14px;
+}
+
+.location-icon p,.email-icon p{
+    margin: 3rem 1rem;
+    max-width: 45%;
+}
+
+.tell{
+    margin: 3rem 1rem;
+}
+
+.cell{
+    margin: -54px 17px;
+}
+
+.container-form{
+    background-color: var(--french-bistre-color);
+    width: 100%;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 15rem;
+}
+
+
+.icons h4{
+    color: var(--camel-color);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:2rem;
+    margin-left: 16rem;
+}
+
+#fname,#email, #subject, #subject, #message{
+    width:30rem;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.submit{
+    width:20rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    padding: 1rem;
+    border: none;
+    background-color: var(--black-coffee-color);
+    color: var(--black-bean-color);
+}
+
+.submit:hover{
+    background-color: var(--black-bean-color);
+    color: var(--black-coffee-color);
+}
+
+.map{
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: 1rem;
+}
+
+.footer{
+    background-color: var(--dark-sienna-color);
+    height:100px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30rem;
+}
+
+.collection h3,.blog h3,.contact h3{
+    color: var(--camel-color);
+    text-decoration: underline;
+    padding-top:0.5rem;
+    padding-left:10rem;
+    font-size: 15px;
+}
+
+.list-group{
+    list-style-type: none;
+    text-align: justify;
+    color: var(--camel-color);
+    margin-left:10rem;
+    width:10rem;
+}
+
+.list-group li{
+    font-size: 10px;
+}
+
+.coll-hl{
+    border-left: 1px solid var(--camel-color);
+    height:4rem;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 27rem;
+}
+
+.blog-hl{
+    border-left: 1px solid var(--camel-color);
+    height:4rem;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 45rem;
+}
